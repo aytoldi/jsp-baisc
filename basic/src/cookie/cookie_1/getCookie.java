@@ -1,4 +1,4 @@
-package cookie_1;
+package cookie.cookie_1;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
