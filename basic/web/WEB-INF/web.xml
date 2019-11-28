@@ -3,7 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <!-- 声明Servlet对象 -->
+        <servlet-name>TestServlet</servlet-name>
+        <!-- 上面一句指定Servlet对象的名称 -->
+        <servlet-class>xml.config.TestServlet</servlet-class>
+        <!-- 上面一句指定Servlet对象的完整位置，包含包名和类名 -->
+    </servlet>
+    <servlet-mapping>
+        <!-- 映射Servlet -->
+        <servlet-name>TestServlet</servlet-name>
+        <!--<servlet-name>与上面<Servlet>标签的<servlet-name>元素相对应，不可以随便起名  -->
+        <url-pattern>/xmlServlet</url-pattern>
+        <!-- 上面一句话用于映射访问URL -->
+    </servlet-mapping>
 </web-app>
-<session-config>
-    <session-timeout>30</session-timeout>
-</session-config>

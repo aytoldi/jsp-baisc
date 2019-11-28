@@ -1,16 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
-  Date: 2019/11/25 0025
-  Time: 上午 1:09
+  Date: 2019/11/29 0029
+  Time: 上午 1:22
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  <a href="/ServletCartFile?num=1">ok</a>
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <a href="xmlServlet?num=1">xmlServlet</a>
+</body>
 </html>
