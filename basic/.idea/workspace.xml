@@ -7,13 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a40052-99b6-4763-9bea-ec20439516a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session/cart/ServletCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xml/config/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/xml_config.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/session/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/session/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cookie/cookie_1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cookie/cookie_1/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cookie/cookie_1/getCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cookie/cookie_1/getCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session/cart/ServletCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session/cart/ServletCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xml_config.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/webXml.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,7 +165,11 @@
       <workItem from="1574615480240" duration="89000" />
       <workItem from="1574696987139" duration="6029000" />
       <workItem from="1574785822556" duration="1791000" />
-      <workItem from="1574955244410" duration="3246000" />
+      <workItem from="1574955244410" duration="4216000" />
+      <workItem from="1575042474436" duration="1838000" />
+      <workItem from="1575086006708" duration="4495000" />
+      <workItem from="1575213669292" duration="3331000" />
+      <workItem from="1575300777997" duration="4980000" />
     </task>
     <task id="LOCAL-00001" summary="add session">
       <created>1574787188520</created>
@@ -172,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574787188521</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add xml">
+      <created>1574962602683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574962602683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add session" />
-    <option name="LAST_COMMIT_MESSAGE" value="add session" />
+    <MESSAGE value="add xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add xml" />
   </component>
 </project>

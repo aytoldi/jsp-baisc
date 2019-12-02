@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    <a href="xmlServlet?num=1">xmlServlet</a>
+    <a href="WebXmlServlet?num=1">xmlServlet</a>
 </body>
 </html>

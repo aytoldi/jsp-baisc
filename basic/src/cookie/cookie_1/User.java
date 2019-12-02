@@ -20,18 +20,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/User")
 public class User extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
     public User() {
         super();
-        // TODO Auto-generated constructor stub
     }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//قۇرىدۇ new Cookie ئەۋەتكەندە مۇلازىمتىز ئۆزىدە  request ئەزامۇلازىمتىرغا   
 		 Cookie newCookie = new Cookie("user","admin");
@@ -39,16 +30,9 @@ public class User extends HttpServlet {
 		 newCookie.setMaxAge(60*60*24*7*2);
 		 //نىمۇ قۇشۇپ ئەۋەتىدۇ cookie يوللىغاندا response مۇلازىمتىر توركۆرگۈچكە 
 		 response.addCookie(newCookie);
-		 
-		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append("login succss");
 	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

@@ -16,18 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/getCookie")
 public class getCookie extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+
     public getCookie() {
         super();
-        // TODO Auto-generated constructor stub
     }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//غا ئېرىشىش cookie ئەزا توركۆرگۈچتىن مۇلازىمتىرغا ئەۋەتكەن 
 		Cookie[] getCookieObject = request.getCookies();
@@ -48,15 +40,10 @@ public class getCookie extends HttpServlet {
 		if(obj!=null){
 			response.getWriter().append("name:"+obj.getName()+"\t"+"val:"+obj.getValue());
 		}
-		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

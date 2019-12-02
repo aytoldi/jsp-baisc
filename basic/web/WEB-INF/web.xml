@@ -14,7 +14,7 @@
         <!-- 映射Servlet -->
         <servlet-name>TestServlet</servlet-name>
         <!--<servlet-name>与上面<Servlet>标签的<servlet-name>元素相对应，不可以随便起名  -->
-        <url-pattern>/xmlServlet</url-pattern>
+        <url-pattern>/WebXmlServlet</url-pattern>
         <!-- 上面一句话用于映射访问URL -->
     </servlet-mapping>
 </web-app>
