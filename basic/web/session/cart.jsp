@@ -1,11 +1,5 @@
 <%@ page import="java.util.Map" %>
-<%@ page import="java.util.Entry" %><%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2019/11/30 0030
-  Time: 上午 11:59
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -28,7 +22,7 @@
     </tr>
     <%
         }else{
-        for (Entry<String,Integer> en : map.keySet()){
+        for (Map.Entry<String,Integer> en : map.entrySet()){
     %>
     <tr>
         <td><%=en.getKey()%></td>

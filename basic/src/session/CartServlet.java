@@ -1,4 +1,4 @@
-package session.cart;
+package session;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,7 +15,7 @@ import java.util.Map;
 *
 * */
 
-public class ServletCart extends HttpServlet {
+public class CartServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //  ئەزا مال ھارۋسىغا قوشىمەن دىگەن كۇنۇپكا چىكىلگەندە ، مالنىڭ ئىسمنى ServletCart غا ئەۋەتىدۇ ،  مالنىڭ count قىممتىگە ئىرىشىش
         String name = request.getParameter("mall");

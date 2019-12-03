@@ -7,14 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a40052-99b6-4763-9bea-ec20439516a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/session/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/session/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session/createImgServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/session/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/session/success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cookie/cookie_1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cookie/cookie_1/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cookie/cookie_1/getCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cookie/cookie_1/getCookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session/cart/ServletCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session/cart/ServletCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session/cart/ServletCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xml/config/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/TestServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/xml_config.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/webXml.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session/cart.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/session/readme" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,8 +147,46 @@
         </option>
       </method>
     </configuration>
+    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/session/login.jsp" />
+      <deployment>
+        <artifact name="basic:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/basic_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="basic:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.login.jsp" />
         <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
@@ -169,7 +208,8 @@
       <workItem from="1575042474436" duration="1838000" />
       <workItem from="1575086006708" duration="4495000" />
       <workItem from="1575213669292" duration="3331000" />
-      <workItem from="1575300777997" duration="4980000" />
+      <workItem from="1575300777997" duration="5691000" />
+      <workItem from="1575379042766" duration="8970000" />
     </task>
     <task id="LOCAL-00001" summary="add session">
       <created>1574787188520</created>
@@ -185,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574962602683</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add cart">
+      <created>1575310539487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575310539487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +254,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add session" />
     <MESSAGE value="add xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add xml" />
+    <MESSAGE value="add cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cart" />
   </component>
 </project>
