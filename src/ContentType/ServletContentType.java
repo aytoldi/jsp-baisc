@@ -9,13 +9,9 @@ import java.io.IOException;
 
 @WebServlet(name = "ServletContentType")
 public class ServletContentType extends HttpServlet {
-    private static final long serialVersionUID = 1L;
-
     public ServletContentType() {
         super();
     }
-
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String output="<h1><a href='javascript:;'>hello world</a></h1>";
         //contentType决定浏览器采用何种方式对响应体进行处理;
